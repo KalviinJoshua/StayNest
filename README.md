@@ -1,6 +1,3 @@
-Sure. Copy everything inside the block below directly into your `README.md`.
-
-````markdown
 # 🏡 StayNest — Find Your Next Stay
 
 > A full-stack Airbnb-inspired rental marketplace built with React, Express, PostgreSQL, and JWT authentication.
@@ -79,14 +76,6 @@ Property URLs use the following format:
 
 ```text
 /property/:id
-````
-
-Example:
-
-```text
-/property/12
-```
-
 ---
 
 # 🔐 Authentication
