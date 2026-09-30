@@ -9,9 +9,10 @@ StayNest is a full-stack web application that allows users to discover propertie
 
 The project uses original StayNest branding, UI, and data rather than copying Airbnb's branding or assets.
 
-## Live Demo
+## 🌐 Live Demo
 
-🌐 **StayNest:** https://stay-nest-delta.vercel.app
+[🚀 View StayNest Live](https://stay-nest-delta.vercel.app)
+
 ---
 
 ## ✨ Features
@@ -985,13 +986,13 @@ Before deployment, verify the following.
 
 ## Property Discovery
 
-* [ ] Stays navigation works
-* [ ] Experiences navigation works
-* [ ] Adventures navigation works
-* [ ] Search works
-* [ ] Category filtering works
-* [ ] Property cards open details
-* [ ] Property details load correctly
+* [x] Stays navigation works
+* [x] Experiences navigation works
+* [x] Adventures navigation works
+* [x] Search works
+* [x] Category filtering works
+* [x] Property cards open details
+* [x] Property details load correctly
 
 ## UI
 
@@ -1132,7 +1133,7 @@ The React/Vite frontend can be deployed to Vercel.
 Configure:
 
 ```env
-VITE_API_URL=https://your-backend-url/api
+VITE_API_URL=https://staynest-backend-ht2n.onrender.com/api
 ```
 
 Replace:
@@ -1174,7 +1175,7 @@ DATABASE_URL=your_production_database_url
 JWT_SECRET=your_production_secret
 JWT_EXPIRES_IN=30d
 PORT=5000
-CLIENT_URL=https://your-frontend-url
+CLIENT_URL=https://stay-nest-delta.vercel.app
 NODE_ENV=production
 ```
 
