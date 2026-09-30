@@ -401,7 +401,7 @@ Add:
 DATABASE_URL=your_supabase_database_url
 
 JWT_SECRET=your_long_random_secret
-JWT_EXPIRES_IN=7d
+JWT_EXPIRES_IN=30d
 
 PORT=5000
 CLIENT_URL=http://localhost:5173
@@ -941,7 +941,7 @@ Example:
 DATABASE_URL=postgresql://user:password@host:port/postgres
 
 JWT_SECRET=replace-with-a-long-random-secret
-JWT_EXPIRES_IN=7d
+JWT_EXPIRES_IN=30d
 
 PORT=5000
 CLIENT_URL=http://localhost:5173
@@ -1169,7 +1169,7 @@ Production environment variables:
 ```env
 DATABASE_URL=your_production_database_url
 JWT_SECRET=your_production_secret
-JWT_EXPIRES_IN=7d
+JWT_EXPIRES_IN=30d
 PORT=5000
 CLIENT_URL=https://your-frontend-url
 NODE_ENV=production
